@@ -1,0 +1,21 @@
+첫째줄: degree 기록
+둘째줄부터: node 기록
+마지막줄: leaf node 기록
+
+node의 key elements, key간 구분은 ','
+node간 구분은 '\t'
+leaf node는 각각 기호 '\'로 시작
+leaf node는 key elements 나열 후 values 나열
+
+예시)
+3
+2,10,20
+\2,1,3,100,200    \1,12,300    \2,21,24,400,500
+
+해석하면 degree가 3,
+root node가 2개의 key(10,20)와 3개의 leaf node를 가짐
+leaf node는 3개
+첫번째 leaf node의 key는 (1,3) 2개이고, 각각의 value는 100, 200
+두번째 leaf node는 key는 (12) 1개이고, value는 300
+세번째 leaf node의 key는 (21,24) 2개이고, 각각의 value는 400, 500
+입니다.
