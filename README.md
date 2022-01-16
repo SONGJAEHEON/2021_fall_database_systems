@@ -69,7 +69,7 @@ These are the description and codes of the 'B+Tree' and 'DB project' that I subm
       - Each line of the data file contains a key-value pair
         - <key>, <value>\n
       - Data file example (input.csv)
-        ![input example](../READMEsrc/inputexample.png)
+        ![input example](https://github.com/SONGJAEHEON/2021_fall_database_systems/blob/main/READMEsrc/input_example.png)
     - Example
       - java bptree -d index.dat delete.csv
   - **Deletion**
@@ -82,7 +82,7 @@ These are the description and codes of the 'B+Tree' and 'DB project' that I subm
       - Each line of the data file contains only a key value
         - <key>\n
       - Deletion file example (delete.csv)
-        ![delete example](../READMEsrc/delete_example.png)
+        ![delete example](https://github.com/SONGJAEHEON/2021_fall_database_systems/blob/main/READMEsrc/delete_example.png)
   - **Single Key Search**
     - Command: *program -s indexl_file key*
       - *key*: key value to be searched
@@ -97,7 +97,7 @@ These are the description and codes of the 'B+Tree' and 'DB project' that I subm
         - If not found, print 'NOT FOUND'
       - Example (This is not the same dataset in above example)
         - java bptree -s index.dat 125
-          ![search example](../READMEsrc/search_example.png)
+          ![search example](https://github.com/SONGJAEHEON/2021_fall_database_systems/blob/main/READMEsrc/search_example.png)
   - **Ranged Search**
     - Command: *program -r index_file start_key end_key*
       - *start_key*: lower bound of the ranged search
@@ -111,7 +111,7 @@ These are the description and codes of the 'B+Tree' and 'DB project' that I subm
         - The program prints only the key-value pairs between them
     - Example
       - java bptree -r index.dat 100 200
-        ![ranged search example](../READMEsrc/ranged_search_example.png)
+        ![ranged search example](https://github.com/SONGJAEHEON/2021_fall_database_systems/blob/main/READMEsrc/ranged_search_example.png)
 
 ---
 
@@ -131,7 +131,7 @@ DB 프로젝트는 1.(요구사항 분석)->2.(ER모델을 이용한 개념적 D
 - 개발하는 프로그램은 다음 기능들을 반드시 포함해야 한다.
   - insert, update, delete, select 기능
 - 모든 function들은 반드시 cli(command line interface)에서 수행될 수 있어야 한다.
- ![DB project example](../READMEsrc/DBproject_example.png)
+ ![DB project example](https://github.com/SONGJAEHEON/2021_fall_database_systems/blob/main/READMEsrc/DBproject_example.png)
   - 단, 위 예시는 예시일 뿐이며, 본인만의 프로그램을 구성할 수 있도록 한다.
 
 ---
